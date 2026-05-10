@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jan Šerák</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script src="javascript.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="https://serakja.github.io/ITW-projekt2/" class="nav-logo">JŠ.</a>
+      <button
+        class="nav-burger"
+        aria-label="Otevřít menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#intro">Úvod</a></li>
+        <li><a href="#about">O mně</a></li>
+        <li><a href="#skills">Dovednosti</a></li>
+        <li><a href="#education">Vzdělání</a></li>
+        <li><a href="#projects">Projekty</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <section id="intro">
+      <div class="intro-text">
+        <span class="intro-label">Ahoj, jsem</span>
+        <h1>Jan<br /><span>Šerák</span></h1>
+        <p class="intro-role">
+          Student VUT v Brně Fakulty informačních technologií
+        </p>
+        <div class="intro-btn">
+          <a href="#projects" class="btn btn-solid">Moje práce</a>
+          <a href="#contact" class="btn btn-ghost">Kontakt</a>
+        </div>
+      </div>
+      <div class="intro-visual">
+        <div class="intro-terminal">
+          <div class="terminal-bar">
+            <span class="t-dot t-red"></span>
+            <span class="t-dot t-yellow"></span>
+            <span class="t-dot t-green"></span>
+            <span class="t-title">xserakj00@fit-vut ~ </span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="t-comment">// Ahoj, jsem</span></p>
+            <p>
+              <span class="t-keyword">const</span>
+              <span class="t-var">developer</span> = {
+            </p>
+            <p>
+              &nbsp;&nbsp;<span class="t-key">name</span>:
+              <span class="t-str">"Jan Šerák"</span>,
+            </p>
+            <p>
+              &nbsp;&nbsp;<span class="t-key">Age</span>:
+              <span class="t-str">"19"</span>
+            </p>
+            <p>
+              &nbsp;&nbsp;<span class="t-key">school</span>:
+              <span class="t-str">"FIT VUT Brno"</span>,
+            </p>
+            <p>
+              &nbsp;&nbsp;<span class="t-key">languages</span>: [<span
+                class="t-str"
+                >"C"</span
+              >, <span class="t-str">"Python"</span>,
+              <span class="t-str">"JS"</span>],
+            </p>
+            <p>};</p>
+            <p class="t-cursor">&nbsp;</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">O mně</h2>
+        <div class="about-grid">
+          <div class="about-img-wrap">
+            <div class="about-img-box">👨‍🎓</div>
+            <div class="about-img-deco"></div>
+          </div>
+          <div class="about-content">
+            <p>
+              Jsem student Fakulty informačních technologií VUT v Brně.
+              Momentálně jsem ve druhém semestru bakalářského studia.
+            </p>
+            <p>
+              Zajímám se o síťařinu, systémovou administraci a programování. Co
+              se týče programování, nejvíce zkušeností mám s jazykem C a Python,
+              ale rád zkouším i jiné jazyky a technologie. Dále si rád hraju s
+              hardwarem a stavím počítače.
+            </p>
+            <p>
+              Je to sice trochu mimo obor, ale baví mě i práce s dětmi. Již
+              několik let se aktivně účastním i organizuji tábory pro děti.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Dovednosti</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="sk-icon"><i class="fa-solid fa-code"></i></span>
+              <h3>C / C++</h3>
+            </div>
+            <p>
+              Systémové programování, správa paměti, datové struktury a
+              algoritmy. Hlavní jazyk výuky na FIT VUT.
+            </p>
+            <div class="sk-bar-wrap">
+              <div class="sk-bar" style="--w: 75%"></div>
+            </div>
+            <span class="sk-pct">75 %</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="sk-icon"
+                ><i class="fa-brands fa-python fa-lg"></i
+              ></span>
+              <h3>Python</h3>
+            </div>
+            <p>
+              Skriptování, automatizace a drobné projekty. Oblíbený jazyk pro
+              rychlé prototypování.
+            </p>
+            <div class="sk-bar-wrap">
+              <div class="sk-bar" style="--w: 85%"></div>
+            </div>
+            <span class="sk-pct">85 %</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="sk-icon"><i class="fa-brands fa-html5"></i></span>
+              <h3>HTML & CSS</h3>
+            </div>
+            <p>
+              Tvorba statických webových stránek. Sémantické HTML, Grid, Flexbox
+              a responzivní design.
+            </p>
+            <div class="sk-bar-wrap">
+              <div class="sk-bar" style="--w: 90%"></div>
+            </div>
+            <span class="sk-pct">90 %</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="sk-icon"
+                ><i class="fa-solid fa-network-wired"></i
+              ></span>
+              <h3>Počítačové sítě</h3>
+            </div>
+            <p>
+              Základy TCP/IP, konfigurace sítí a správa síťových zařízení.
+              Aktivní zájem o síťovou infrastrukturu.
+            </p>
+            <div class="sk-bar-wrap">
+              <div class="sk-bar" style="--w: 70%"></div>
+            </div>
+            <span class="sk-pct">70 %</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="sk-icon"
+                ><i class="fa-brands fa-linux fa-lg"></i
+              ></span>
+              <h3>Linux & Sysadmin</h3>
+            </div>
+            <p>
+              Práce s příkazovou řádkou, správa systémů a základní administrace
+              Linuxu.
+            </p>
+            <div class="sk-bar-wrap">
+              <div class="sk-bar" style="--w: 60%"></div>
+            </div>
+            <span class="sk-pct">60 %</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="sk-icon"><i class="fa-solid fa-computer"></i></span>
+              <h3>Hardware</h3>
+            </div>
+            <p>
+              Stavba a konfigurace PC, diagnostika komponent a upgrade sestav.
+              Rád si hraju s hardwarem.
+            </p>
+            <div class="sk-bar-wrap">
+              <div class="sk-bar" style="--w: 90%"></div>
+            </div>
+            <span class="sk-pct">90 %</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h2 class="section-title">Vzdělání a kurzy</h2>
+        <ol class="timeline">
+          <li class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-body">
+              <span class="tl-date">2025 — současnost</span>
+              <h3>FIT VUT v Brně</h3>
+              <h4>Bc. Informační technologie</h4>
+              <p>
+                Bakalářské studium zaměřené na programování, matematiku a
+                základy systémové architektury.
+              </p>
+            </div>
+          </li>
+          <li class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-body">
+              <span class="tl-date">Léto 2025</span>
+              <h3>CS50: Introduction to Computer Science</h3>
+              <h4>Harvard Online — edX</h4>
+              <p>
+                Intenzivní online kurz pokrývající základy algoritmů, datových
+                struktur a programování v C a Pythonu. Zakončen certifikátem.
+              </p>
+            </div>
+          </li>
+          <li class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-body">
+              <span class="tl-date">2020 — 2025</span>
+              <h3>SPŠ Žďár nad Sázavou</h3>
+              <h4>Maturita — Informační technologie</h4>
+              <p>
+                Čtyřletý obor zaměřený na programování, počítačové sítě a
+                hardware. Maturita z informatiky.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Projekty</h2>
+        <div class="projects-grid">
+          <article class="proj-card">
+            <div class="proj-thumb proj-thumb--1">
+              <i
+                class="fa-solid fa-images"
+                style="color: rgb(255, 255, 255)"
+              ></i>
+            </div>
+            <div class="proj-body">
+              <div class="proj-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Operační systémy</span>
+              </div>
+              <h3>Konventor fotek</h3>
+              <p>
+                Domácí projekt v jazyce Python zaměřený na převod velkého
+                množství fotografií (i v RAW formátu) na jiné formáty pomocí
+                nástroje ImageMagick.
+              </p>
+              <a
+                href="https://github.com/serakja/konventor.git"
+                target="_blank"
+                class="proj-link"
+                >Zobrazit projekt →</a
+              >
+            </div>
+          </article>
+          <article class="proj-card">
+            <div class="proj-thumb proj-thumb--2">
+              <i
+                class="fa-solid fa-campground"
+                style="color: rgb(255, 255, 255)"
+              ></i>
+            </div>
+            <div class="proj-body">
+              <div class="proj-tags">
+                <span class="tag">Tábory</span>
+              </div>
+              <h3>Tábory pro děti</h3>
+              <p>
+                Vedoucí a organizátor dětských táborů pod Katolickým domem
+                Křižanov. Plánování programu, správa přihlášek a komunikace s
+                rodiči.
+              </p>
+              <a
+                href="https://www.facebook.com/katak.krizanov"
+                target="_blank"
+                class="proj-link"
+                >Zobrazit projekt →</a
+              >
+            </div>
+          </article>
+          <article class="proj-card">
+            <div class="proj-thumb proj-thumb--3">
+              <i
+                class="fa-solid fa-server"
+                style="color: rgb(255, 255, 255)"
+              ></i>
+            </div>
+            <div class="proj-body">
+              <div class="proj-tags">
+                <span class="tag">Sítě</span>
+                <span class="tag">Hardware</span>
+              </div>
+              <h3>Domácí server</h3>
+              <p>
+                Sestavení domácího serveru ze starších PC komponent. Konfigurace
+                TrueNAS a aplikací, jako je pihole, homeAssistant a Jellyfin.
+              </p>
+              <a
+                href="https://github.com/serakja/trueNAS-server.git"
+                target="_blank"
+                class="proj-link"
+                >Zobrazit projekt →</a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Kontakt</h2>
+        <div class="contact-info">
+          <h3>Pojďme si promluvit</h3>
+          <p>
+            Zajímá vás spolupráce, máte projekt nebo chcete jen pozdravit?
+            Odpovídám do 24 hodin.
+          </p>
+          <ul class="contact-list">
+            <li>
+              <span class="ci"
+                ><i class="fa-sharp fa-solid fa-location-dot"></i
+              ></span>
+              <span>Brno, Česká republika</span>
+            </li>
+            <li>
+              <span class="ci"><i class="fa-solid fa-envelope"></i></span>
+              <span>xserakj00@stud.fit.vut.cz</span>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jan-serak"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="ci"><i class="fa-brands fa-linkedin"></i></span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jan-serak"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>linkedin.com/in/jan-serak</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/serakja"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="ci"><i class="fa-brands fa-github"></i></span>
+              </a>
+              <a
+                href="https://github.com/serakja"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>github.com/serakja</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        © 2026 Jan Šerák &nbsp;·&nbsp; Vytvořeno v Brně &nbsp;·&nbsp;
+        <a href="#intro">↑ Zpět nahoru</a>
+      </p>
+    </footer>
+  </body>
+</html>
